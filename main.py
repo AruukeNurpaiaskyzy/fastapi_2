@@ -18,4 +18,4 @@ def create_task(task: Task):
     return task
 @app.get("/tasks/", response_model=List[Task])
 def get_tasks():
-    return tasks_db
+    return tasks_db р
